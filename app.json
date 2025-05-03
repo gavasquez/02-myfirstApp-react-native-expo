@@ -24,6 +24,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./node_modules/@react-native-vector-icons/simple-line-icons/fonts/SimpleLineIcons.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
