@@ -11,8 +11,8 @@ export const CounterM3Screen = () => {
   return (
     <View style={ globalStyles.centerContainer }>
       <Text style={ globalStyles.title }>{ count }</Text>
-      <Ionicons name="add" size={45} color="green" />
-      <FAB style={ globalStyles.fab } icon="plus" onPress={ () => setCount( count + 1 ) } onLongPress={ () => setCount( 0 ) } />
+     {/*  <Ionicons name="add" size={45} color="green" /> */}
+      <FAB style={ globalStyles.fab } icon="add-outline" onPress={ () => setCount( count + 1 ) } onLongPress={ () => setCount( 0 ) } />
     </View>
   );
 };
